@@ -26,7 +26,7 @@ from .kb_article import KBArticle
 from .kill_chain_phase import KillChainPhase
 from .ldap_person import LDAPPerson
 from .metadata import Metadata
-from .mitre_attack import MitreAttack
+from .mitre_attack import MITREAttack
 from .network_endpoint import NetworkEndpoint
 from .network_interface import NetworkInterface
 from .observable import Observable
@@ -74,7 +74,7 @@ __all__ = [
     "KillChainPhase",
     "LDAPPerson",
     "Metadata",
-    "MitreAttack",
+    "MITREAttack",
     "NetworkEndpoint",
     "NetworkInterface",
     "Observable",

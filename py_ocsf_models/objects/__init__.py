@@ -17,7 +17,7 @@ from .device_hardware_info import DeviceHardwareInfo
 from .dns_query import DNSQuery
 from .enrichment import Enrichment
 from .evidence_artifacts import EvidenceArtifacts
-from .finding_info import FindingInfo
+from .finding_info import FindingInformation
 from .fingerprint import Fingerprint
 from .geolocation import GeoLocation
 from .group import Group
@@ -65,7 +65,7 @@ __all__ = [
     "DNSQuery",
     "Enrichment",
     "EvidenceArtifacts",
-    "FindingInfo",
+    "FindingInformation",
     "Fingerprint",
     "GeoLocation",
     "Group",

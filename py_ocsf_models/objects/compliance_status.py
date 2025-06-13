@@ -1,4 +1,7 @@
 from enum import IntEnum
+from typing import Optional
+
+from pydantic.v1 import BaseModel
 
 
 class StatusID(IntEnum):
@@ -17,3 +20,16 @@ class StatusID(IntEnum):
     Warning = 2
     Fail = 3
     Other = 99
+
+
+class ComplianceStatus(BaseModel):
+    """
+    The Compliance Status object contains information about the status of a compliance check or assessment.
+
+    Attributes:
+    - Status (status) [Optional]: The compliance status, as reported by the source.
+    - Status ID (status_id) [Optional]: The normalized status identifier of the compliance check.
+    """
+
+    status: Optional[str]
+    status_id: Optional[StatusID]

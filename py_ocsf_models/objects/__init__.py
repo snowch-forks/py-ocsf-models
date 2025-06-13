@@ -18,7 +18,7 @@ from .dns_query import DNSQuery
 from .enrichment import Enrichment
 from .evidence_artifacts import EvidenceArtifacts
 from .finding_info import FindingInformation
-from .fingerprint import Fingerprint
+from .fingerprint import FingerPrint
 from .geolocation import GeoLocation
 from .group import Group
 from .image import Image
